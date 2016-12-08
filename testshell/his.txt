@@ -1,0 +1,1003 @@
+   37  make cp_api > ~/Desktop/investigation/make.cp_api.log.txt
+   38  make cleanall > /dev/null 
+   39  make mp_api > /dev/null 
+   40  make mp_api > ~/Desktop/investigation/make.mp_api.log.txt
+   41  ll
+   42  find . -name '*sofia*'
+   43  cd sofiasource/
+   44  ll
+   45  cd ..
+   46  find . -name '*.a'
+   47  cd lib/
+   48  ll -t
+   49  cd ..
+   50  find . -name '*.so*'
+   51  cd ./ssb/libraries/pcre-8.11/.libs/
+   52  ll -t
+   53  ll -t
+   54  cd /usr/local/slctools/6.0/pentium3/boost/lib
+   55  ll
+   56  cd ..
+   57  ll
+   58  cd li
+   59  cd lib/
+   60  ll
+   61  ldd libboost_date_time.so.1.44.0
+   62  ldd libboost_thread.so.1.44.0
+   63  pwd
+   64  cd /usr/local/slctools/6.0/
+   65  cd boost_1_44_0/
+   66  ll
+   67  cd tools/
+   68  ll
+   69  cd build/
+   70  ll
+   71  cd v2/
+   72  ll
+   73  cd to
+   74  cd tools/
+   75  ll
+   76  cd ~
+   77  cd  /usr/local/slctools/6.0/
+   78  ll
+   79  ldd /usr/local/slctools/6.0/pentium3/lib/libsofia-sip-ua.so.0.6.0
+   80  pwd
+   81  cd /opt/slc/bin/
+   82  ll
+   83  ldd SSBLinux
+   84  ldd /usr/lib/libSLCssbnetutilshared.so
+   85  ldd /root/Desktop/20160415/appliance/lib/libSLCfips.so
+   86  ldd /usr/lib/libSLCssbnetutilshared.so
+   87  ll
+   88  find . -name cap
+   89  cd ..
+   90  find . -name cap
+   91  ldd SSBmonitor
+   92  cd bin/
+   93  ldd SSBmonitor
+   94  ldd SSBMediaProxy
+   95  ldd SSBMediaProxy | grep boost
+   96  ll
+   97  ldd ETMmonitor
+   98  ldd ETMmonitor | grep boost
+   99  ldd /root/Desktop/20160415/appliance/ssb/lib/libboost_date_time.so.1.44.0
+  100  clear
+  101  vim ~/Desktop/make.ssb.log.txt 
+  102  cat ~/Desktop/make.ssb.log.txt | grep '/usr/local/slctools/6.0/'
+  103  cat ~/Desktop/make.ssb.log.txt | grep '/usr/local/slctools/6.0/' > ~/Desktop/make.ssb.log.filter.txt 
+  104  vim ~/Desktop/make.ssb.log.filter.txt
+  105  cd /opt/slc/bin/
+  106  ll
+  107  ldd SSBLinux 
+  108  ldd /root/Desktop/20160415/appliance/lib/libSLCfips.so
+  109  ldd libpcre.so.0
+  110  ldd /root/Desktop/20160415/appliance/ssb/libraries/installed/lib/libpcre.so.0
+  111  cd ..
+  112  pwd
+  113  cd ~/Desktop/20160415/appliance
+  114  ll
+  115  find . -name *sofia*
+  116  cd sofiasource/
+  117  ll
+  118  vim Sofia_Fixes.doc 
+  119  find / -name *sofia*
+  120  find / -name '*sofia*'
+  121  ll
+  122  cd ~/Desktop/
+  123  ll
+  124  cd ~/Desktop/20160415/appliance
+  125  ll
+  126  make what 
+  127  make cleanall > /dev/null 
+  128  make ssb > /dev/null 
+  129  make ssb > ~/Desktop/investigation/log/ssb.txt
+  130  make cleanall > /dev/null 
+  131  make sigproxy > /dev/null 
+  132  make sigproxy &> ~/Desktop/investigation/log/sigproxy.txt
+  133  make cleanall > /dev/null 
+  134  make cap > /dev/null 
+  135  make cap &> ~/Desktop/investigation/log/cap.txt
+  136  make cleanall > /dev/null 
+  137  make sigproxyoffline > /dev/null 
+  138  make sigproxyoffline &> ~/Desktop/investigation/log/sigproxyoffline.txt
+  139  make cleanall > /dev/null 
+  140  make mediaproxy > /dev/null 
+  141  make mediaproxy &> ~/Desktop/investigation/log/mediaproxy.txt
+  142  make cleanall > /dev/null 
+  143  make crc > /dev/null 
+  144  make crc &>  ~/Desktop/investigation/log/crc.txt
+  145  make cleanall > /dev/null 
+  146  make nsa > /dev/null 
+  147  make nsa &> ~/Desktop/investigation/log/nsa.txt 
+  148  make cleanall > /dev/null 
+  149  make etmmonitor > /dev/null 
+  150  make etmmonitor > ~/Desktop/investigation/log/etmmonitor.txt
+  151  make cleanall > /dev/null 
+  152  make cm_api &> ~/Desktop/investigation/log/cm_api.txt 
+  153  make cm_api &> ~/Desktop/investigation/log/cm_api.txt 
+  154  make cleanall > /dev/null 
+  155  make cp_api &> ~/Desktop/investigation/log/cp_api.txt 
+  156  make cp_api &> ~/Desktop/investigation/log/cp_api.txt 
+  157  make cleanall > /dev/null 
+  158  make mp_api &> ~/Desktop/investigation/log/mp_api.txt 
+  159  make mp_api &> ~/Desktop/investigation/log/mp_api.txt 
+  160  make what
+  161  make sigproxy
+  162  make sigproxy
+  163  find . -name SSBSigProxyInline
+  164  ldd ./ssb/signalproxy/proxy/SSBSigProxyInline
+  165  | grep sofia
+  166  ldd ./ssb/signalproxy/proxy/SSBSigProxyInline | grep sofia
+  167  ldd ./ssb/signalproxy/proxy/SSBSigProxyInline > ~/Desktop/investigation/lsofia/log/sigproxy.linker.txt
+  168  cd ~/Desktop/investigation/lsofia/log/
+  169  ll
+  170  vim sigproxy.linker.txt 
+  171  exit
+  172  cd ~/Desktop/20160415/appliance
+  173  find . -name '*cprops*'
+  174  cd ./ssb/libraries/installed/lib/
+  175  ll
+  176  pwd
+  177  cd ~/Desktop/20160415/appliance
+  178  ll
+  179  clear
+  180  cd lib/
+  181  ll
+  182  ldd libboost_thread.so.1.44.0
+  183  cd ..
+  184  find . -name "*libboost_*"
+  185  ldd ./ssb/lib/libboost_date_time.so.1.44.0
+  186  find . -name libpcre*
+  187  cd ./ssb/libraries/pcre-8.11/
+  188  ll -t
+  189  ./configure 
+  190  make cleean
+  191  make clean
+  192  ll -t
+  193  make
+  194  find  . -name *.so
+  195  make clean
+  196  make &> ~/Desktop/make.libprce.txt
+  197  vim ~/Desktop/make.libprce.txt
+  198  which g++
+  199  which gcc
+  200  cd ~/Desktop/investigation
+  201  ll
+  202  mkdit lboost_date
+  203  mkdir lboost_date
+  204  mkdir lboost_date/log
+  205  ./bcbcbc.sh lboost_date lboost_date
+  206  cd lboost_date/log/
+  207  ll
+  208  vim etmmonitor.txt 
+  209  cd ..
+  210  cd ..
+  211  ll
+  212  cd log/
+  213  ll
+  214  vim sigproxy.txt 
+  215  vim ~/.vimrc 
+  216  cd ~/Desktop/investigation
+  217  ll
+  218  cd log/
+  219  ll
+  220  vim ssb.txt 
+  221  cd ..
+  222  ll
+  223  vim bcbcbc.sh 
+  224  cd ..
+  225  ll
+  226  cd lsofia/
+  227  ll
+  228  cd log/
+  229  ll
+  230  vim sigproxy.linker.txt 
+  231  vim sigproxy.txt 
+  232  ll
+  233  cd ..
+  234  cd ..
+  235  cd log/
+  236  ll
+  237  vim ssb.txt 
+  238  cd /usr/local/slctools/6.0/pentium3/bin/
+  239  ll
+  240  vim /usr/bin/zzcscope 
+  241  cd ~/Desktop/20160415/appliance
+  242  ll
+  243  vim ~/.vimrc 
+  244  cd /usr/local/slctools/6.0/pentium3/bin/
+  245  ll
+  246  cd ~/Desktop/20160415/appliance
+  247  find . -name expat.h
+  248  find . -name XmlPolicy.h
+  249  vim ./xmlpolicy/XmlPolicy.h
+  250  cd  /usr/local/slctools
+  251  find . -name expat.h
+  252  cd ./6.0/pentium3/include/
+  253  ll
+  254  find . -name Lockless*
+  255  make sigproxy
+  256  make sigproxy
+  257  make mediaproxy
+  258  cd ~/Desktop/20160415/appliance
+  259  make what
+  260  make etmmonitor
+  261  make etmmonitor
+  262  find . -name ETMmonitor
+  263  find . -name "lib*common*"
+  264  make mediaproxy
+  265  make mediaproxy
+  266  find . -name '*hbmgmtcommon*'
+  267  find / -name '*hbmgmtcommon*'
+  268  find find . -name SSBMediaProxy
+  269  cd ssb//mediaproxy/voiceage/codeclib
+  270  ll
+  271  ll
+  272  cd ..
+  273  ll
+  274  cd ..
+  275  cd ..
+  276  cd..
+  277  cd .
+  278  make cm_api
+  279  cd ..
+  280  make cm_api
+  281  make
+  282  clear
+  283  find / -name cib.h
+  284  cd ~/Desktop/20160415/appliance
+  285  ll
+  286  find . -name *.a
+  287  make cleanall
+  288  find . -name *.a
+  289  nm -a ssb/mediaproxy/voiceage/codeclib/g729b.a
+  290  make mediaproxy
+  291  find . -name va_g729b_decoder
+  292  SSBMediaProxy
+  293  find . -name SSBMediaProxy
+  294  ldd ./ssb/mediaproxy/proxy/SSBMediaProxy
+  295  nm -a ./ssb/mediaproxy/proxy/SSBMediaProxy | grep 927
+  296  nm -a ./ssb/mediaproxy/proxy/SSBMediaProxy | grep g729
+  297  ll
+  298  cd /usr/local/slctools/6.0/pentium3/bin/
+  299  ll
+  300  mkdir -p /usr/local/slctools/6.0/pentium3/i686-pc-linux-gnu/bin
+  301  cd ~/Desktop/20160415/appliance
+  302  ll
+  303  vim -t VCread
+  304  vim ~/.vimrc 
+  305  vim ~/.bashrc 
+  306  ll /usr/local/slctools/6.0/pentium3/
+  307  ll
+  308  ll /usr/local/slctools/6.0/pentium3/bin/
+  309  cd ~/Desktop/20160415/appliance
+  310  find . -name '*.rpm'
+  311  history | grep 102
+  312  history  | grep sip
+  313  cd ~/Desktop/
+  314  ll
+  315  cd 20160415/appliance
+  316  ll
+  317  cd pkg/
+  318  ll
+  319  cd ..
+  320  find ./ -name libboost_thread.so.1.44.0
+  321  find / -name libboost_thread.so.1.44.0
+  322  ll /usr/local/slctools/6.0
+  323  cd /usr/local/slctools/6.0
+  324  ll
+  325  cd boost_1_44_0/
+  326  ll
+  327  cd ..
+  328  ll
+  329  cd pentium3/
+  330  ll
+  331  cd share/
+  332  ll
+  333  cd locale/
+  334  ll
+  335  cd ..
+  336  cd ..
+  337  ll
+  338  cd lib
+  339  ll
+  340  cd ..
+  341  ll
+  342  ll
+  343  find . -name 'sofia*.so*'
+  344  ll /usr/local/slctools/6.0/
+  345  ll /usr/local/slctools/6.0/
+  346  ll
+  347  cd ~/Desktop/20160415/appliance
+  348  ll
+  349  cd build/
+  350  ll -t
+  351  vim BuildOutput.txt 
+  352  cd ..
+  353  find . -name '*FIPS.so*'
+  354  find . -name 'libSLCfips.so.1.0.1*'
+  355  vim ~/.bashrc 
+  356  ifconfig 
+  357  cd ~/Desktop/20160415/appliance
+  358  make what
+  359  make ssb
+  360  make
+  361  make sigproxy
+  362  make
+  363  make mediaproxy
+  364  make
+  365  make mediaproxy
+  366  make
+  367  make crc
+  368  make
+  369  make etmmonitor
+  370  make
+  371  clear
+  372  yum list | grep ETM
+  373  yum remove ETM-callmanager.i386
+  374  yum remove ETM-callprocessor.i386
+  375  yum remove ETM-mediaproxy.i386
+  376  cd ~/Desktop/build-59
+  377  ll
+  378  echo 0>/selinux/enforce
+  379  rpm -i --force ETM-callmanager-7.1.59.i386.rpm
+  380  rpm -i --force ETM-callprocessor-7.1.59.i386.rpm
+  381  rpm -i --force ETM-mediaproxy-7.1.59.i386.rpm
+  382  ps ax | grep SSB
+  383  netstat -nap | grep SSB
+  384  ifconfig
+  385  cd ~/Desktop
+  386  mkdir trung_test
+  387  cd ~/Desktop/trung_test/
+  388  touch new_file.txt
+  389  HOSTNAME="linuxbox"
+  390  echo "my host name is $HOSTNAME"
+  391  echo 'my host name is $HOSTNAME'
+  392  echo "my host name is $HOSTNAME" > new_file.txt
+  393  echo 'my host name is $HOSTNAME' 1>> new_file.txt
+  394  echo "My host name is \$HOSTNAME"
+  395  echo "My host name is \$HOSTNAME\"
+  396  echo "My host name is \$HOSTNAME"
+  397  exit
+  398    1 cd ~/Desktop/20160415/appliance
+  399  cd ~/Desktop/20160415/appliance
+  400  which ll
+  401  ls
+  402  clear
+  403  which ll
+  404  ll | grep cscope
+  405  zzcscope 
+  406  vim -t VCread
+  407  dat
+  408  date
+  409  which date
+  410  cd ~/Desktop/trung_test/
+  411  date +"%m-%d-%Y"
+  412  vim testbash.sh
+  413  ll
+  414  chmod 777 testbash.sh 
+  415  ll
+  416  ./testbash.sh 
+  417  vim testbash.sh 
+  418  ./testbash.sh thimnay
+  419  date --help
+  420  vim testbash.sh 
+  421  which vim
+  422  file /usr/bin/vim
+  423  vim /usr/bin/vim
+  424  export
+  425  vim testbash.sh 
+  426  ./testbash.sh
+  427  vim testbash.sh
+  428  ./testbash.sh
+  429  vim testbash.sh
+  430  ./testbash.sh
+  431  vim testbash.sh
+  432  now=$(date)
+  433  echo now
+  434  echo "$now"
+  435  now='date'
+  436  echo $now
+  437  echo "$date"
+  438  echo "$now"
+  439  now=$(date)
+  440  echo "$now"
+  441  vim testbash.sh
+  442  bc<<<"3%2"
+  443  echo "3%2"
+  444  now=$(date)
+  445  bc<<<"now%2"
+  446  echo $(4%5)
+  447  echo $((4%5))
+  448  echo $((5%4))
+  449  echo $((6%4))
+  450  echo $((4%4))
+  451  echo $((7%4))
+  452  echo $(($now%4))
+  453  echo $(("$now"%4))
+  454  echo $(($date%4))
+  455  echo $(($(date)%4))
+  456  date + %d
+  457  date + '%d'
+  458  date +'%m/%d/%Y'
+  459  date +'%d/%Y'
+  460  date +'%d'
+  461  date+'%d'
+  462  date +'%d'
+  463  date + '%d'
+  464  date +'%d'
+  465  echo $((date +'%d')%2)
+  466  now=date +'%d'
+  467  now="date +'%d'"
+  468  echo now
+  469  echo "now'
+  470  q
+  471  cd ~/Desktop/trung_test/
+  472  cat new_file.txt
+  473  HOSTNAME="linuxbox"
+  474  echo "my host name is \"$HOSTNAME\"."
+  475  echo "my host name is \$HOSTNAME\."
+  476  ls
+  477  chmod u+x new_file.txt
+  478  ls
+  479  chmod g+w+x new_file.txt
+  480  ls
+  481  chmod o+w+x new_file.txt
+  482  ls
+  483  chmod 111 new_file.txt
+  484  ls
+  485  chmod 222 new_file.txt
+  486  ls
+  487  chmod 333 new_file.txt
+  488  ls
+  489  chmod 777 new_file.txt
+  490  ls
+  491  history >& history.txt
+  492  mrdir trung_test_sub
+  493  mkdir trung_test_sub
+  494  ls
+  495  ls -a
+  496  ls
+  497  chmod 777 trung_test_sub
+  498  ls
+  499  chmod g-r-w-x o-r-w-x trung_test_sub
+  500  chmod g-r-w-x trung_test_sub
+  501  chmod o-r-w-x trung_test_sub
+  502  ls
+  503  echo "blank lines \n\n\n"
+  504  echo -e "blank lines \n\n\n"
+  505  man echo
+  506  echo -E "blank lines \n\n\n"
+  507  echo -e "blank lines \n\n\n"
+  508  man echo
+  509  echo -n "blank lines \n\n\n"
+  510  which zzcscope
+  511  vim /usr/bin/zzcscope
+  512  cd ~/Desktop/trung_test/
+  513  date +'%d'
+  514  now="date +'%d'"
+  515  echo $now
+  516  echo $((5%4))
+  517  echo $(((date +'%d')%4))
+  518  bc<<<"(date +'d')%4)
+  519  cd ~/Desktop/trung_test/
+  520  date +'%d'
+  521  a=123
+  522  echo "The value of \"a\" is $a."
+  523  echo "The value of a is $a."
+  524  let a=16+5
+  525  echo "The value of a is $a."
+  526  a=23
+  527  echo $a
+  528  b=$a
+  529  echo $b
+  530  today=date +'%d'
+  531  today=(date +'%d')
+  532  echo $today
+  533  echo $(today)
+  534  bc<<<"date +'%d'%4"
+  535  bc <<< "`date +'%d'` % 4"
+  536  bc <<< "`date +'%d'` % 2"
+  537  bc <<< "`date +'%d'` % 4" -eq 1
+  538  2 -eq 2
+  539  vim testbash.sh
+  540  ./testbash.sh
+  541  vim testbash.sh
+  542  ./testbash.sh
+  543  echo "`date +'%d'` % 4"
+  544  a="`date +'%d'` % 4"
+  545  echo $a
+  546  a="`date +'%d'`%4"
+  547  echo $a
+  548  echo $$a
+  549  a="'date +'%d''"
+  550  echo $a
+  551  [5 -eq 6]
+  552  vim testbash.sh
+  553  ./testbash.sh
+  554  vim testbash.sh
+  555  ./testbash.sh 
+  556  vim testbash.sh
+  557  ./testbash.sh 
+  558  vim testbash.sh
+  559  ./testbash.sh 
+  560  vim testbash.sh
+  561  ./testbash.sh 
+  562  vim testbash.sh
+  563  ./testbash.sh 
+  564  vim testbash.sh
+  565  ./testbash.sh 
+  566  vim testbash.sh
+  567  ./testbash.sh 
+  568  vim testbash.sh
+  569  ./testbash.sh 
+  570  vim testbash.sh
+  571  ./testbash.sh 
+  572  vim testbash.sh
+  573  ./testbash.sh 
+  574  vim testbash.sh
+  575  ./testbash.sh 
+  576  vim testbash.sh
+  577  ./testbash.sh 
+  578  vim testbash.sh
+  579  ./testbash.sh 
+  580  vim testbash.sh
+  581  ./testbash.sh 
+  582  vim testbash.sh
+  583  ./testbash.sh 
+  584  vim testbash.sh
+  585  ./testbash.sh 
+  586  vim testbash.sh
+  587  ./testbash.sh 
+  588  vim testbash.sh
+  589  ./testbash.sh 
+  590  vim testbash.sh
+  591  ./testbash.sh 
+  592  vim testbash.sh
+  593  ./testbash.sh 
+  594  vim testbash_2.sh
+  595  vim testbash_2.sh
+  596  man echo
+  597  vim testbash_2.sh
+  598  ./testbash_2.sh
+  599  chmod 777 testbash_2.sh
+  600  ./testbash_2.sh
+  601  ./testbash_2.sh
+  602  ./testbash_2.sh
+  603  ./testbash_2.sh
+  604  vim testbash_2.sh
+  605  ./testbash_2.sh
+  606  ./testbash_2.sh
+  607  ./testbash_2.sh
+  608  ./testbash_2.sh./testbash_2.sh
+  609  ./testbash_2.sh
+  610  ./testbash_2.sh
+  611  vim testbash_3.sh
+  612  ./testbash_3.sh
+  613  chmod 777 testbash_3.sh
+  614  ./testbash_3.sh
+  615  ./testbash_3.sh
+  616  vim testbash_3.sh
+  617  ./testbash_3.sh
+  618  vim testbash_3.sh
+  619  ./testbash_3.sh
+  620  vim testbash_3.sh
+  621  ./testbash_3.sh
+  622  vim testbash_3.sh
+  623  ./testbash_3.sh
+  624  vim testbash_3.sh
+  625  ./testbash_3.sh
+  626  ./testbash_3.sh
+  627  vim testbash_3.sh
+  628  ./testbash_3.sh
+  629  vim testbash_3.sh
+  630  ./testbash_3.sh
+  631  ./testbash_3.sh
+  632  vim testbash_3.sh
+  633  ./testbash_3.sh
+  634  vim testbash_3.sh
+  635  ./testbash_3.sh
+  636  ./testbash_3.sh
+  637  ./testbash_3.sh
+  638  vim testbash_3.sh
+  639  ./testbash_3.sh
+  640  vim testbash_3.sh
+  641  ./testbash_3.sh
+  642  vim testbash_3.sh
+  643  ./testbash_3.sh
+  644  vim testbash_3.sh
+  645  ./testbash_3.sh
+  646  vim testbash_3.sh
+  647  echo "today is 'date'"
+  648  echo "today is `date`"
+  649  echo "today is `date +'%d'`"
+  650  vim bash_1.sh
+  651  ./bash_1.sh
+  652  chmod 777 bash_1.sh
+  653  ./bash_1.sh
+  654  vim bash_1.sh
+  655  ./bash_1.sh
+  656  vim bash_1.sh
+  657  ./bash_1.sh
+  658  vim bash_1.sh
+  659  ./bash_1.sh
+  660  vim bash_1.sh
+  661  ./bash_1.sh
+  662  vim bash_1.sh
+  663  ./bash_1.sh
+  664  vim bash_1.sh
+  665  ./bash_1.sh
+  666  vim bash_1.sh
+  667  ./bash_1.sh
+  668  vim bash_1.sh
+  669  ./bash_1.sh
+  670  vim bash_1.sh
+  671  ./bash_1.sh
+  672  vim bash_1.sh
+  673  ./bash_1.sh
+  674  ./bash_1.sh
+  675  vim bash_1.sh
+  676  ./bash_1.sh
+  677  vim bash_1.sh
+  678  ./bash_1.sh
+  679  vim bash_1.sh
+  680  ./bash_1.sh
+  681  vim bash_1.sh
+  682  ./bash_1.sh
+  683  vim bash_1.sh
+  684  ./bash_1.sh
+  685  vim bash_1.sh
+  686  vim bash_1.sh
+  687  ./bash_1.sh
+  688  vim bash_1.sh
+  689  ./bash_1.sh
+  690  vim bash_1.sh
+  691  ./bash_1.sh
+  692  vim bash_1.sh
+  693  ./bash_1.sh
+  694  expr 1\+3
+  695  echo "expr 1\+3"
+  696  echo `expr 1\+3`
+  697  echo `expr 1\+3`
+  698  echo "$((1+2))"
+  699  m=3
+  700  n=4
+  701  echo "$(($m*$n))
+  702  echo "$(($m*$n))"
+  703  ./bash_1.sh
+  704  q
+  705  wq
+  706  return
+  707  cd ~/Desktop/trung_test/
+  708  z=4
+  709  let "z=$z+3"
+  710  echo $z
+  711  z=4
+  712  z=$((z+3))
+  713  echo $z
+  714  m=2
+  715  n=3
+  716  z=$((m*n))
+  717  echo $z
+  718  z=expr 20\%3
+  719  z=$((20%3))
+  720  echo $z
+  721  z=date +'%d'
+  722  echo "date +'%d'"
+  723  echo date
+  724  echo "date"
+  725  echo 'date'
+  726  echo "$date"
+  727  $date +'%T'
+  728  date +'%T'
+  729  date +'%d/%m/%y'
+  730  date +'%d-%m-%y'
+  731  date +'%d'
+  732  b=$((date +'%d'))
+  733  b=$((`date +'%d'`))
+  734  echo $b
+  735  my_date=$((date +'%d'))
+  736  my_date=$((`date +'%d'`))
+  737  is_check=$((`$my_date%2`))
+  738  is_check=$(($((`my_date%2`))))
+  739  is_check=$((`$((my_date%2))`))
+  740  echo $is_check
+  741  epxr 20 \% 3
+  742  expr 20 \% 3
+  743  my_date=$((`date +'%d'`))
+  744  expr my_date \% 2
+  745  expr $my_date \% 2
+  746  a=expr $my_date \% 2
+  747  a=`expr $my_date \% 2`
+  748  echo $a
+  749  vim date.sh
+  750  .\date.sh
+  751  vim date.sh
+  752  ./date.sh
+  753  chmod 777 date.sh
+  754  ./date.sh
+  755  vim date.sh
+  756  ./date.sh
+  757  vim date.sh
+  758  ./date.sh
+  759  vim date.sh
+  760  ./date.sh
+  761  vim date.sh
+  762  cd ~/Desktop/trung_test/
+  763  cat date.sh
+  764  ./date.sh
+  765  man echo
+  766  vim mul_table.sh
+  767  ./mul_table.sh
+  768  chmod 777 mul_table.sh
+  769  ./mul_table.sh
+  770  ./mul_table.sh
+  771  ./mul_table.sh
+  772  vim mul_table.sh
+  773  vim chess_board.sh
+  774  ./chess_board.sh
+  775  chmod 777 chess_board
+  776  chmod 777 chess_board.sh
+  777  ./chess_board.sh
+  778  vim chess_board.sh
+  779  ./chess_board.sh
+  780  ./chess_board.sh
+  781  vim chess_board.sh
+  782  ./chess_board.sh
+  783  vim chess_board.sh
+  784  ./chess_board.sh
+  785  ./chess_board.sh
+  786  vim chess_board.sh
+  787  ./chess_board.sh
+  788  vim chess_board.sh
+  789  vim chess_board.sh
+  790  ./chess_board.sh
+  791  vim chess_board.sh
+  792  ./chess_board.sh
+  793  ./chess_board.sh
+  794  ./chess_board.sh
+  795  vim chess_board.sh
+  796  ./chess_board.sh
+  797  vim chess_board.sh
+  798  ./chess_board.sh
+  799  vim chess_board.sh
+  800  ./chess_board.sh
+  801  vim chess_board.sh
+  802  ./chess_board.sh
+  803  vim chess_board.sh
+  804  ./chess_board.sh
+  805  ./chess_board.sh
+  806  vim chess_board.sh
+  807  ./chess_board.sh
+  808  vim chess_board.sh
+  809  ./chess_board.sh
+  810  vim chess_board.sh
+  811  ./chess_board.sh
+  812  ./chess_board.sh
+  813  vim chess_board.sh
+  814  ./chess_board.sh
+  815  vim chess_board.sh
+  816  ./chess_board.sh
+  817  vim chess_board.sh
+  818  ./chess_board.sh
+  819  vim chess_board.sh
+  820  echo $SHELL
+  821  sh chess_board.sh
+  822  iconfig
+  823  ifconfig 
+  824  yum perl-Net-Interface
+  825  yum install perl-Net-Interface
+  826  cd ~/Desktop/trung_test/
+  827  sh chess_board.sh
+  828  man ls
+  829  ls -al
+  830  ls -a
+  831  chmod 777 trung_test_sub
+  832  ls -a
+  833  vim new_file.sh
+  834  sh new_file.sh
+  835  man yum
+  836  clear
+  837  man yum
+  838  hym list
+  839  yum list
+  840  rpm --help
+  841  man rpm
+  842  ls
+  843  cd /home/
+  844  ls
+  845  ls
+  846  ls -a
+  847  ls
+  848  cd ~/Desktop/20160415/appliance/ssb/callprocessor/
+  849  ls
+  850  cd main/
+  851  ls
+  852  clear
+  853  find ./ | grep main
+  854  ll
+  855  cd ../../
+  856  cd ../
+  857  cd ~/Desktop/trung_test/
+  858  vim new_file.sh
+  859  sh new_file.sh
+  860  vim new_file.sh
+  861  man set
+  862  sh new_file.sh
+  863  vim new_file.sh
+  864  sh new_file.sh
+  865  vim new_file.sh
+  866  sh new_file.sh
+  867  vim new_file.sh
+  868  sh new_file.sh
+  869  vim new_file.sh
+  870  sh new_file.sh
+  871  vim new_file.sh
+  872  sh new_file.sh
+  873  vim new_file.sh
+  874  sh new_file.sh
+  875  vim new_file.sh
+  876  sh new_file.sh
+  877  vim new_file.sh
+  878  sh new_file.sh
+  879  sh new_file.sh
+  880  vim new_file.sh
+  881  sh new_file.sh
+  882  vim new_file.sh
+  883  sh new_file.sh
+  884  vim new_file.sh
+  885  sh new_file.sh
+  886  vim new_file.sh
+  887  sh new_file.sh
+  888  vim new_file.sh
+  889  vim new_file.sh
+  890  sh new_file.sh
+  891  vim new_file.sh
+  892  sh new_file.sh
+  893  vim new_file.sh
+  894  sh new_file.sh
+  895  vim new_file.sh
+  896  sh new_file.sh
+  897  vim new_file.sh
+  898  5
+  899  5
+  900  sh new_file.sh
+  901  vim new_file.sh
+  902  sh new_file.sh
+  903  vim new_file.sh
+  904  sh new_file.sh
+  905  vim new_file.sh
+  906  clear
+  907  sh new_file.sh
+  908  vim new_file.sh
+  909  clear
+  910  sh new_file.sh
+  911  sh new_file.sh
+  912  vim new_file.sh
+  913  clear
+  914  sh new_file.sh
+  915  vim new_file.sh
+  916  sh new_file.sh
+  917  vim new_file.sh
+  918  sh new_file.sh
+  919  vim new_file.sh
+  920  clear
+  921  sh new_file.sh
+  922  vim new_file.sh
+  923  sh new_file.sh
+  924  vim new_file.sh
+  925  sh new_file.sh
+  926  sh new_file.sh
+  927  sh new_file.sh
+  928  sh new_file.sh
+  929  man echo
+  930  vim new_file.sh
+  931  sh new_file.sh
+  932  vim new_file.sh
+  933  sh new_file.sh
+  934  vim new_file.sh
+  935  sh new_file.sh
+  936  man echo
+  937  vim new_file.sh
+  938  sh new_file.sh
+  939  vim new_file.sh
+  940  rm new_file.sh
+  941  vim check_digit_letter.sh
+  942  vim check_digit_letter.sh
+  943  sh check_digit_letter.sh
+  944  sh check_digit_letter.sh
+  945  vim check_digit_letter.sh
+  946  sh check_digit_letter.sh
+  947  vim check_digit_letter.sh
+  948  sh check_digit_letter.sh
+  949  sh check_digit_letter.sh
+  950  sh check_digit_letter.sh
+  951  ifconfig
+  952  ifconfig
+  953  make -s pentium3
+  954  cd ~/Desktop/20160415/appliance
+  955  make -s pentium3
+  956  make what
+  957  make ssb
+  958  make
+  959  make what
+  960  make ssb
+  961  cd /root/Desktop/20160415/appliance/ssb/callprocessor/main
+  962  ls
+  963  cd /opt/slc/
+  964  ls
+  965  cd callproc.d/bin/
+  966  ls
+  967  pwd
+  968  cd ~/Desktop/20160415/
+  969  ls
+  970  cd appliance
+  971  ls
+  972  make what
+  973  manual make
+  974  man make
+  975  vim Makefile 
+  976  cd /opt/
+  977  ls
+  978  ls
+  979  ../
+  980  ..
+  981  make what
+  982  make what
+  983  ~/Desktop/20160415/appliance
+  984  cd ~/Desktop/20160415/appliance
+  985  make what
+  986  make ssb
+  987  make what
+  988  make sigproxy
+  989  make
+  990  cd ~/Desktop/20160415/appliance
+  991  make what
+  992  ifconfig
+  993  cd ~/Desktop/20160415/appliance
+  994  make what
+  995  make ssb
+  996  make
+  997  make what
+  998  make sigproxy
+  999  make
+ 1000  man cp
+ 1001  make what
+ 1002  make mediaproxy
+ 1003  make
+ 1004  make what
+ 1005  make cap
+ 1006  make
+ 1007  make what
+ 1008  make sigproxyoffline
+ 1009  make
+ 1010  make what
+ 1011  make crc
+ 1012  make
+ 1013  make what
+ 1014  make nsa
+ 1015  make
+ 1016  make what
+ 1017  make etmmonitor
+ 1018  git remote -v
+ 1019  git branch
+ 1020  git status
+ 1021  git reset --hard HEAD
+ 1022  git branch
+ 1023  git branch	#Show ra branch hien hanh ma minh co
+ 1024  git checkout -b z-dev-test-git bardeen #tao nhanh moi z-dev-test-git tu nhanh goc bardeen
+
+ 1025  git branch
+ 1026  zzcscope 
+ 1027  vim -t VCread
+ 1028  git status	#check nhanh hien hanh co file nao thay doi hoac hien len
+ 1029  git diff comm/VC.c	#So sanh nhung thay doi gi
+ 1030  git add comm/VC.c	#Muon submit file nay
+ 1031  git stauts	
+ 1032  git status	#Xem trang thai
+ 1033  git commit -m "test git"		#Toi muon commit vao local repository tren
+ PC voi message "test git"
+
+ 1034  git log	#Show log:w
+ 1035  clear
+ 1036  history > ~/Desktop/trung_test/his.txt
