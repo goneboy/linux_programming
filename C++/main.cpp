@@ -4,6 +4,8 @@ using namespace std;
 
 class PC
 {
+private:
+
 public:
 	void show(void);
 };
@@ -24,6 +26,7 @@ void Monitor::show()
 	cout << "[Monitor] Hello\n";
 }
 
+//Class Board, inherits from PC and Monitor
 class Board : public PC, public Monitor
 {
 public:
